@@ -1,0 +1,14 @@
+{
+    "hooks": [{
+        "type": "PackageInstall",
+        "requestName": "Installing/Upgrading Automobile Accidents App"
+    }],
+    "configuration": {
+        "appConfiguration": {
+            "autoShareWithOriginator": true,
+            "autoShareWithLicensedUsers": true,
+            "deleteAppOnConstructionFailure": true,
+            "values": {}
+        }
+    }
+}

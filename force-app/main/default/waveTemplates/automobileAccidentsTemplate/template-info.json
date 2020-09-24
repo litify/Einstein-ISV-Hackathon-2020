@@ -1,0 +1,50 @@
+{
+  "templateType" : "embeddedapp",
+  "label" : "automobileAccidentsTemplate",
+  "name" : "automobileAccidentsTemplate",
+  "assetVersion" : 48.0,
+  "variableDefinition" : "variables.json",
+  "uiDefinition" : "ui.json",
+  "autoInstallDefinition" : "auto-install.json",
+  "rules" : [
+    {
+      "type" : "templateToApp",
+      "file" : "template-to-app-rules.json"
+    },
+    {
+      "type" : "appToTemplate",
+      "file" : "app-to-template-rules.json"
+    }
+  ],
+  "releaseInfo" : {
+    "templateVersion" : "1.1",
+    "notesFile" : "releaseNotes.html"
+  },
+  "folderDefinition" : "folder.json",
+  "externalFiles" : [ ],
+  "lenses" : [ ],
+  "dashboards" : [
+    {
+      "label" : "automobileAccidentsTemplateDashboard",
+      "name" : "automobileAccidentsTemplateDashboard_tp",
+      "condition" : "${Variables.Overrides.createAllDashboards}",
+      "file" : "dashboards/automobileAccidentsTemplateDashboard.json"
+    }
+  ],
+  "eltDataflows" : [ ],
+  "recipes" : [ ],
+  "datasetFiles" : [ ],
+  "storedQueries" : [ ],
+  "imageFiles" : [ ],
+  "extendedTypes" : { },
+  "templateDependencies" : [ ],
+  "icons" : {
+    "appBadge" : {
+      "name" : "16.png"
+    },
+    "templateBadge" : {
+      "name" : "default.png"
+    },
+    "templatePreviews" : [ ]
+  }
+}
